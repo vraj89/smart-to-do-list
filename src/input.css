@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+/* Custom Utility */
+@utility red {
+  background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+}
