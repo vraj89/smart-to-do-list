@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+/* Custom Theme */
+@theme {
+  --breakpoint-xs: 100px; /* tu apna min-width yaha set kar */
+}
+
 /* Custom Utility */
 @utility red {
   background-image: linear-gradient(to right, #ff7e5f, #feb47b);

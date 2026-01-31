@@ -10,6 +10,25 @@
       <header class="text-center py-6  red   w-full ">
       <h1 class="sm:text-5xl text-bold  transition-all duration-700 text-white hover:text-yellow-100  hover:tracking-wide  animate-bounce">Welcome to TO-DO List </h1>
       </header>
-      
+     
+      <div class="flex justify-center  gap-3 xs:mt-3 sm:mt-5">
+          <input  type="text"  name="tsk"  id="addtsk"  placeholder="add your task" class="border-2 border-black outline-none rounded-sm xs:w-25 text-sm sm:w-50 text-2xl" />
+          <button type="submit" class="red p-2 rounded-sm text-white xs:text-sm sm:text-2xl hover:cursor-pointer hover:transition-all duration-700 hover:scale-120 add">ADD </button>
+      </div>
+     
+      <div class="flex justify-center w-full gap-3 xs:mt-5 sm:mt-5">
+        <button class="red p-2 text-white rounded-sm hover:cursor-pointer  hover:transition-all duration-700 hover:scale-120 run">Running</button>
+        <button class="red p-2 text-white rounded-sm hover:cursor-pointer hover:transition-all duration-700 hover:scale-120 act">Active</button>
+        <button class="red p-2 text-white rounded-sm hover:cursor-pointer hover:transition-all duration-700 hover:scale-120 com">Completed</button>
+        
+      </div>
+      <div class="tsklist flex justify-center gap-3">
+
+      </div>
+      <div class="sm:mt-5">
+            <p class="text-gray-500 text-center lwtxt">No task ,yet added </p>
+        </div>
+
+        <script src="script.js"></script>
 </body>
 </html>
